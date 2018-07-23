@@ -1,0 +1,96 @@
+<html>
+<body>
+
+<ul>
+  <li><a class="active" href="sample.php">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+<div class=desc>
+<div class="background">
+<div class="transbox">
+
+<center>
+
+
+<b><font face="Rockwell">Product Purchased:</font></b> <?php echo $_POST["product"]; ?><br><br>
+
+	Quanity: <?php echo $_POST["quantity"]; ?><br>
+Payment: <?php echo $_POST["Payment"]; ?> <br>
+Change:
+<?php
+  echo $_POST["Payment"] - $_POST["Pprice"]; ?><br>
+<?php echo "Thank you for comming, please come back, plesh.<br>"
+ ?>
+ </div>
+ </div>
+<?php
+
+
+?>
+</div>
+ <style>
+div.background {
+
+    border: 2px solid black;
+	width: 30%;
+
+}
+
+div.transbox {
+    margin: 30px;
+    background-color: grey;
+    border: 1px solid black;
+    opacity:0.8;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+	width: 80%;
+position: relative;
+}
+
+
+
+
+ body { background-image: url("brew.jpg");
+background-repeat: no-repeat;
+background-size: 1400px 800px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	position: fixed;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+</style>
+
+<html>
+<head>
+<style>
+
+
+
+
+
+
+  </body>
+
+</html>
