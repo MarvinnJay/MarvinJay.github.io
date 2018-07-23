@@ -92,7 +92,7 @@ box-shadow: 13px 13px #0D101C;
 }
 
 body {
-background-image: url('../Images/room3.jpg');
+background-image: url('../Images/room4.png');
 /* Center and scale the image nicely */
 background-position: center;
 background-repeat: no-repeat;
@@ -134,12 +134,12 @@ animation-fill-mode: forwards;
 
 @-webkit-keyframes mymove2 {
 from {top: -10px;}
-to {top: 48px;  opacity: 1;}
+to {top: 36px;  opacity: 1;}
 }
 
 @keyframes mymove2 {
 from {top: -10px;}
-to {top: 48px; opacity: 1;}
+to {top: 36px; opacity: 1;}
 }
 
 li {
