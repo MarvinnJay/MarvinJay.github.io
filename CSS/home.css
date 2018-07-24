@@ -1,6 +1,44 @@
+.yawa {
+background-image: url('../Images/dev.jpg');
+/* Center and scale the image nicely */
+/* Full height */
+  height: 100%;
+  position: relative;
+   /* Create the parallax scrolling effect */
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+
+
+.name {
+  height: 30%;
+  width: 100%;
+  background-image: url('../Images/name.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 40%;
+  margin-top: -50px; }
+
+
+
+.back-quote {
+  width: 960px;
+  height: 600px;
+  background-image: url('../Images/more.png');
+  background-repeat: no-repeat;
+  background-position: top left;
+  position: absolute;
+  left: 38%;
+  margin-left: -480px; }
+
+
 ta {
   border: 2px solid white;
-  
+
 
 }
 
@@ -54,25 +92,15 @@ font-weight: 700;
 text-shadow: 2px 2px #0D101C;
 }
 
-div.main2 {
--webkit-flex: 1; /* Safari 6.1+ */
-flex: 1;
-position: fixed;
-width: 75%;
-position: fixed;
-left: 50%;
-margin-left: -37.5%;
-z-index: 1;
-}
+
 
 div.main {
 -webkit-flex: 1; /* Safari 6.1+ */
 flex: 1;
-position: fixed;
-width: 75%;
-position: fixed;
+width: 100%;
 left: 50%;
-margin-left: -37.5%;
+margin-center: -37.5%;
+
 z-index: 1;
 }
 
@@ -83,13 +111,13 @@ text-shadow: 5px 5px #0D101C;
 la {
 background-color: black;
 opacity:0.9;
-padding:3% 0% 1% 0% ;
+padding:2% 0% 1% 0% ;
 }
 
 lo {
 background-color: white;
 opacity:0.9;
-padding:3% 0% 1% 0% ;
+padding:2% 0% 1% 0% ;
 }
 
 img {
@@ -109,13 +137,23 @@ border-radius: 25%;
 box-shadow: 13px 13px #0D101C;
 }
 
-body {
-background-image: url('../Images/room4.png');
-/* Center and scale the image nicely */
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-background-attachment: fixed;
+body, html {
+    height: 100%;
+}
+
+
+.parallax{
+
+  height:800px;
+  background-color:white;
+  font-size:36px;
+}
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width:  1080px) {
+    .body {
+        background-attachment: scroll;
+    }
 }
 
 uul{
