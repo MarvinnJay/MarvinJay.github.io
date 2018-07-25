@@ -1,3 +1,9 @@
+
+.aboutli{
+  display: block;
+}
+
+
 .yawa {
 background-image: url('../Images/dev.jpg');
 /* Center and scale the image nicely */
@@ -14,7 +20,7 @@ background-image: url('../Images/dev.jpg');
 
 
 .name {
-  height: 30%;
+  height: 27%;
   width: 100%;
   background-image: url('../Images/name.png');
   background-position: center;
@@ -145,8 +151,11 @@ body, html {
 .parallax{
 
   height:800px;
-  background-color:white;
+  background-image:url('../Images/aboutbg.png');
   font-size:36px;
+  background-repeat: no-repeat;
+  background-size: contain;
+
 }
 
 /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
