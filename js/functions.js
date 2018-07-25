@@ -1,3 +1,4 @@
+//CREATING THE PARALLAX EFFECT, THE SCROLLING SPEED IS DEVIDED TO 4.6
 var pContainerHeight = $('.yawa').height();
 
 $(window).scroll(function(){
@@ -7,13 +8,13 @@ $(window).scroll(function(){
   if (wScroll <= pContainerHeight) {
 
     $('.name').css({
-      'transform' : 'translate(0px, '+ wScroll /5 +'%)'
+      'transform' : 'translate(0px, '+ wScroll /4.6 +'%)'
     });
   }
 
   });
 
-  //smooth scrolling
+  //CREATING THE SMOOTH SCROLLING WHILE CLICKING A CERTAIN LINK AND IT WILL GENTLY TAKE YOU TO A CERTAIN AREA OF THE WEBSITE
 
   var jump=function(e)
 {
