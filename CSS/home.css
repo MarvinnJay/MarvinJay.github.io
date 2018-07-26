@@ -124,7 +124,7 @@ background-image: url('../Images/dev.jpg');
 height: 100%;
 position: relative;
 /* Create the parallax scrolling effect */
-background-attachment: fixed;
+
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
