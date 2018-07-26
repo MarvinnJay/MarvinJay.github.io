@@ -206,7 +206,7 @@ body, html {
 }
 
 /* TO DISABLE THE PARALLAX WHEN THE USER IS USING A SMALL SCREEN SUCH AS PHONES AND TABLETS */
-@media only screen and (max-device-width:  1080px) {
+@media only screen and (max-device-width:  800px) {
     .yawa, .parallax, .portfolio, .resume, .contact {
         background-attachment: scroll;
     }
@@ -224,7 +224,13 @@ body, html {
     height: 50%;
   }
   body{
-    height: inherit;
+    height: auto;
+  }
+  html{
+    height: auto;
+  }
+  .yawa, .parallax, .portfolio, .resume, .contact {
+      background-attachment: scroll;
   }
 }
 

@@ -8,7 +8,7 @@ $(window).scroll(function(){
   if (wScroll <= pContainerHeight) {
 
     $('img').css({
-      'transform' : 'translate(0px, '+ wScroll /4.6 +'%)'
+      'transform' : 'translate(0px, '+ wScroll /3 +'%)'
     });
   }
 
