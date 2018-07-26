@@ -220,7 +220,7 @@ body, html {
     width: 100%;
   }
   .menu{
-     font-size: large;
+     font-size: 8px;
   }
 }
 
@@ -255,6 +255,7 @@ to {top: 36px; opacity: 1;}
 li {
 display:inline;
 transition: width 2s;
+
 }
 /*FOR NAVIGATION BAR DESIGN ALSO*/
 li a {
