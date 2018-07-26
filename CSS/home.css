@@ -1,4 +1,24 @@
+/*PADDING FOR HEADLINES PER SECTION*/
+div.transbox {
+background-color: grey;
+opacity:0.9;
+padding: 10px 10px 10px 10px;
+width: 30%;
+border-radius: 25%;
+box-shadow: 13px 13px #0D101C;
+height: 12%;
 
+}
+
+div.shodow {
+text-shadow: 5px 5px #0D101C;
+}
+
+pop{
+font-weight: 700;
+text-shadow: 4px 4px #0D101C;
+float: center;
+}
 
 /*BAR GRAPH*/
 *, *:before, *:after {
@@ -68,7 +88,7 @@ h2 {
   color: #444;
   cursor: pointer;
   padding: 18px;
-  width: 69%;
+  width: 70%;
   border: none;
   text-align: left;
   outline: none;
@@ -92,7 +112,7 @@ h2 {
   display: none;
   overflow: hidden;
   background-color: #f1f1f1;
-  width: 69%;
+  width: 70%;
   box-shadow: 10px 10px;
 }
 
