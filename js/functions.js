@@ -27,7 +27,7 @@ $(window).scroll(function(){
        {
                //get top-position of target-element and set it as scroll target
                scrollTop: $(target).offset().top
-       //scrolldelay: 2 seconds
+       //scrolldelay: 1 second
      },1000,function()
        {
                //attach the hash (#jumptarget) to the pageurl
@@ -40,4 +40,35 @@ $(document).ready(function()
 {
        $('a[href*=#]').bind("click", jump);
        return false;
+});
+
+//THIS IS FOR THE COLLAPSIBLE
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+
+$('.horizontal .progress-fill span').each(function(){
+  var percent = $(this).html();
+  $(this).parent().css('width', percent);
+});
+
+//BAR GRAPH
+$('.vertical .progress-fill span').each(function(){
+  var percent = $(this).html();
+  var pTop = 100 - ( percent.slice(0, percent.length - 1) ) + "%";
+  $(this).parent().css({
+    'height' : percent,
+    'top' : pTop
+  });
 });
