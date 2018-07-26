@@ -209,10 +209,21 @@ body, html {
 
 /* TO DISABLE THE PARALLAX WHEN THE USER IS USING A SMALL SCREEN SUCH AS PHONES AND TABLETS */
 @media only screen and (max-device-width:  1080px) {
-    .body {
+    .yawa, .parallax, .portfolio, .resume, .contact {
         background-attachment: scroll;
     }
 }
+
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .one, .two, .three {
+    width: 100%;
+  }
+  .menu{
+     font-size: large;
+  }
+}
+
 
 /*THIS IS WHERE THE NAVIGATION DESIGN CAME FROM*/
 ul {
