@@ -286,7 +286,7 @@ body, html {
   .rounded .progress-fill {
     border-radius: 3px;
     box-shadow: inset 0 0 5px rgba(0,0,0,.2);
-    height: 5px;
+    height: 2px;
   }
 
 
