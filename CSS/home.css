@@ -118,6 +118,8 @@ h2 {
 }
 
 /*PARALLAX ELEMENTS*/
+
+
 .yawa {
 background-image: url('../Images/dev.jpg');
 /* Center and scale the image nicely */
@@ -205,39 +207,58 @@ body, html {
 
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:500px) {
   /* For mobile phones: */
   .one, .two, .three {
     width: 100%;
   }
-  .ul{
-    position: relative;
+.ul{
+  text-align:center;
+  width: 50%;
+  position: relative;
+}
+
+  .yawa{
+    background-image: url('../Images/.jpg');
   }
+  .parallax{
+    background-image: url('../Images/.jpg');
+  }
+  .portfolio{
+    background-image: url('../Images/.jpg');
+  }
+  .resume{
+    background-image: url('../Images/.jpg');
+  }
+
+
   .menu{
-     font-size: 8px;
+     font-size: 6px;
+
   }
   .words{
-       font-size: 8px;
+       font-size: 10px;
+  }
+  .wordsforcollaps{
+    font-size: 8px;
   }
   .heading{
     font-size: 20px;
   }
-  .image{
-    height: 50%;
+ img{
+  margin-top: 60%;
   }
-  body{
-    height: auto;
-  }
+
   html{
-    height: auto;
+    height: 100%;
   }
   .yawa, .parallax, .portfolio, .resume, .contact {
       background-attachment: scroll;
   }
   .collapsible{
     padding: 1px;
-    width: 43%;
-    height: 10%;
+    width: 50%;
+    height: 5%;
     box-shadow: 2px 2px;
   }
 .content{
@@ -245,11 +266,12 @@ body, html {
 }
 
   div.transbox {
+    margin-top: 0%;
   background-color: grey;
   opacity:0.9;
-  padding: 2% 2% 2% 2%;
+  padding: 5% 0% 0% 2%;
   width: 50%;
-  border-radius: 25%;
+  border-radius: 12%;
   box-shadow: 13px 13px #0D101C;
   height: 12%;
   }
@@ -295,9 +317,9 @@ body, html {
 
 /*THIS IS WHERE THE NAVIGATION DESIGN CAME FROM*/
 ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
+
+margin: 0%;
+padding: 0%;
 overflow: hidden;
 position: fixed;
 text-align:right;
@@ -321,15 +343,15 @@ to {top: 36px; opacity: 1;}
 }
 /*TO PUT THE NAVIGATION IN LINE*/
 li {
+
 display:inline;
 transition: width 2s;
+
 
 }
 /*FOR NAVIGATION BAR DESIGN ALSO*/
 li a {
 color: white;
-text-align: center;
-padding: 14px 16px;
 text-decoration: none;
 display:inline-block;
 padding:15px;

@@ -8,8 +8,12 @@ $(window).scroll(function(){
   if (wScroll <= pContainerHeight) {
 
     $('img').css({
-      'transform' : 'translate(0px, '+ wScroll /3 +'%)'
+      'transform' : 'translate(0px, '+ wScroll /2 +'%)'
     });
+    $('.back-quote').css({
+      'transform' : 'translate(0px, '+ wScroll /5 +'%)'
+    });
+
   }
 
   });
