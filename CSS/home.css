@@ -1,5 +1,27 @@
 /*PADDING FOR HEADLINES PER SECTION*/
-div.transbox {
+.transskill{
+background-color: grey;
+opacity:0.9;
+padding: 10px 10px 10px 10px;
+width: 21%;
+border-radius: 25%;
+box-shadow: 13px 13px #0D101C;
+height: 12%;
+}
+
+
+.transportf{
+background-color: grey;
+opacity:0.9;
+padding: 10px 10px 10px 10px;
+width: 23%;
+border-radius: 25%;
+box-shadow: 13px 13px #0D101C;
+height: 12%;
+
+}
+
+.transbox {
 background-color: grey;
 opacity:0.9;
 padding: 10px 10px 10px 10px;
@@ -21,11 +43,14 @@ float: center;
 }
 
 /*BAR GRAPH*/
+
 *, *:before, *:after {
   -moz-box-sizing: border-box;
  -webkit-box-sizing: border-box;
   box-sizing: border-box;
  }
+
+
 
 body {
   background: #999;
@@ -134,7 +159,7 @@ background-size: cover;
 }
 
 .parallax{
-background-image:url('../Images/aboutbg.png');
+background-image:url('../Images/resumebg.png');
 height: 100%;
 position: relative;
  /* Create the parallax scrolling effect */
@@ -145,7 +170,7 @@ background-size: cover;
 }
 
 .portfolio{
-background-image:url('../Images/portfoliobg.png');
+background-image:url('../Images/aboutbg.png');
 height: 100%;
 position: relative;
  /* Create the parallax scrolling effect */
@@ -156,7 +181,7 @@ background-size: cover;
 }
 
 .resume{
-background-image:url('../Images/resumebg.png');
+background-image:url('../Images/portfoliobg.png');
 height: 100%;
 position: relative;
  /* Create the parallax scrolling effect */

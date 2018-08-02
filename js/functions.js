@@ -13,6 +13,9 @@ $(window).scroll(function(){
     $('.back-quote').css({
       'transform' : 'translate(0px, '+ wScroll /5 +'%)'
     });
+    $('.bars').css({
+      'transform' : 'translate(0px, '+ wScroll /5 +'%)'
+    });
 
   }
 
