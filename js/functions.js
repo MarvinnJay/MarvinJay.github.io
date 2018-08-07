@@ -8,17 +8,15 @@ $(window).scroll(function(){
   if (wScroll <= pContainerHeight) {
 
     $('img').css({
-      'transform' : 'translate(0px, '+ wScroll /2 +'%)'
+      'transform' : 'translate(0px, '+ wScroll /3.5 +'%)'
     });
     $('.back-quote').css({
       'transform' : 'translate(0px, '+ wScroll /5 +'%)'
     });
-    $('.bars').css({
-      'transform' : 'translate(0px, '+ wScroll /5 +'%)'
-    });
+
 
   $('.back-guitar').css({
-    'transform' : 'translate(0px, '+ wScroll /8 +'%)'
+    'transform' : 'translate(0px, '+ wScroll /18 +'%)'
   });
 
   }
